@@ -1,0 +1,13 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\bin\Debug\gsp_nbr_verify.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\bin\Debug\gsp_nbr_verify.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\bin\Debug\gsp_nbr_verify.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.compare_form.resources
+F:\gy\program\gsp_nbr_verify\gsp_nbr_verify\bin\Debug\gsp_nbr_verify.exe.config
+F:\gy\program\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.exe
+F:\gy\program\gsp_nbr_verify\gsp_nbr_verify\obj\Debug\gsp_nbr_verify.pdb

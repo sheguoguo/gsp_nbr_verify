@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.cneport.com/webservices/superpass" xmlns:soap12enc="http://www.w3.org/2003/05/soap-encoding" xmlns:conv="http://www.openuri.org/2002/04/wsdl/conversation/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsr="http://www.openuri.org/2002/10/soap/reliability/" targetNamespace="http://www.cneport.com/webservices/superpass" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types />
+  <message name="serviceResponse">
+    <part name="result" type="s:base64Binary" />
+    <part name="responseData" type="s:base64Binary" />
+  </message>
+  <message name="service">
+    <part name="serviceName" type="s:string" />
+    <part name="requestContext" type="s:base64Binary" />
+    <part name="requestData" type="s:base64Binary" />
+  </message>
+  <portType name="SuperPassPort">
+    <operation name="service" parameterOrder="serviceName requestContext requestData responseData">
+      <input message="tns:service" />
+      <output message="tns:serviceResponse" />
+    </operation>
+  </portType>
+  <binding name="SuperPassPort" type="tns:SuperPassPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="service">
+      <soap:operation soapAction="" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="http://www.cneport.com/webservices/superpass" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="http://www.cneport.com/webservices/superpass" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SuperPass">
+    <port name="SuperPassPort" binding="tns:SuperPassPort">
+      <soap:address location="http://sp.drugadmin.com/SuperPassDrug/SuperPass" />
+    </port>
+  </service>
+</definitions>
